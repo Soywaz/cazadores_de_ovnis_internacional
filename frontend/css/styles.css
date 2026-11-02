@@ -58,7 +58,7 @@ section{padding:80px 0}
 .hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;background:linear-gradient(180deg,rgba(5,7,13,.5) 0%,rgba(5,7,13,.65) 80%,#05070d 100%),linear-gradient(90deg,rgba(5,7,13,.85) 0%,rgba(5,7,13,.45) 60%,rgba(5,7,13,.25) 100%),url('../assets/portada.jpg') center/cover no-repeat}
 #stars{position:absolute;inset:0;width:100%;height:100%}
 .hero-in{position:relative;z-index:2;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-top:var(--nav-h)}
-.hero h1{font-family:'Montserrat','Segoe UI','Inter',sans-serif;font-weight:700;letter-spacing:1px;font-size:clamp(2rem,5vw,3.6rem);line-height:1.1;margin:14px 0 20px;background:linear-gradient(90deg,#fff,var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero h1{font-family:'Montserrat','Segoe UI','Inter',sans-serif;font-weight:700;letter-spacing:1px;font-size:clamp(2rem,5vw,3.6rem);line-height:1.1;margin:14px 0 20px;color:#fff}
 .hero p{color:#b8c3e6;max-width:520px;margin-bottom:30px}
 .cta-row{display:flex;gap:14px;flex-wrap:wrap}
 .ufo-scene{position:relative;height:440px;display:grid;place-items:center;perspective:900px}
@@ -180,7 +180,7 @@ section{padding:80px 0}
 .memb-hero{position:relative;min-height:100vh;padding:calc(var(--nav-h) + 46px) 0 84px;display:flex;align-items:center;overflow:hidden;background:linear-gradient(180deg,rgba(5,7,13,.62) 0%,rgba(5,7,13,.76) 55%,#040711 100%),radial-gradient(ellipse at 50% 18%,rgba(53,242,208,.18),transparent 65%),url('../assets/bg-membresias.jpg') center top/cover no-repeat}
 .memb-hero-in{position:relative;z-index:2;width:min(1120px,92%)}
 .memb-head{text-align:center;max-width:740px;margin:0 auto 42px}
-.memb-head h1{font-family:'Montserrat','Orbitron',sans-serif;font-weight:800;letter-spacing:1.2px;font-size:clamp(1.9rem,4.2vw,3.1rem);line-height:1.12;margin:12px 0 14px;background:linear-gradient(90deg,#fff 20%,var(--cyan) 95%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 10px 30px rgba(0,0,0,.5)}
+.memb-head h1{font-family:'Montserrat','Orbitron',sans-serif;font-weight:800;letter-spacing:1.2px;font-size:clamp(1.9rem,4.2vw,3.1rem);line-height:1.12;margin:12px 0 14px;color:#fff;text-shadow:0 10px 30px rgba(0,0,0,.5)}
 .memb-head p{color:#c5d1f0;font-size:1rem;line-height:1.6}
 .plans{display:grid;grid-template-columns:repeat(2,1fr);gap:32px;max-width:980px;margin:0 auto;align-items:stretch}
 .plan{position:relative;padding:34px 32px 30px;border-radius:24px;border:1px solid rgba(53,242,208,.24);background:linear-gradient(160deg,rgba(14,22,48,.86) 0%,rgba(6,10,24,.94) 100%);backdrop-filter:blur(16px);box-shadow:0 24px 60px rgba(0,0,0,.65),inset 0 1px 0 rgba(255,255,255,.08);display:flex;flex-direction:column;transition:transform .4s cubic-bezier(.2,.8,.2,1),border-color .4s,box-shadow .4s;transition-delay:var(--d,0s);overflow:hidden}
@@ -235,7 +235,7 @@ body[data-page="membresias"] footer.site-footer,body[data-page="tienda"] footer.
 .store-hero{position:relative;min-height:100vh;padding:calc(var(--nav-h) + 46px) 0 90px;overflow:hidden;background:linear-gradient(180deg,rgba(5,7,13,.64) 0%,rgba(5,7,13,.8) 50%,#040711 100%),radial-gradient(ellipse at 50% 15%,rgba(53,242,208,.16),transparent 65%),url('../assets/bg-tienda.jpg') center top/cover no-repeat fixed}
 .store-hero-in{position:relative;z-index:2}
 .store-head{text-align:center;max-width:740px;margin:0 auto 36px}
-.store-head h1{font-family:'Montserrat','Orbitron',sans-serif;font-weight:800;letter-spacing:1.2px;font-size:clamp(1.9rem,4.2vw,3.1rem);line-height:1.12;margin:12px 0 14px;background:linear-gradient(90deg,#fff 20%,var(--cyan) 95%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 10px 30px rgba(0,0,0,.5)}
+.store-head h1{font-family:'Montserrat','Orbitron',sans-serif;font-weight:800;letter-spacing:1.2px;font-size:clamp(1.9rem,4.2vw,3.1rem);line-height:1.12;margin:12px 0 14px;color:#fff;text-shadow:0 10px 30px rgba(0,0,0,.5)}
 .store-head p{color:#c5d1f0;font-size:1rem;line-height:1.6}
 .store-toolbar{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:16px 20px;margin-bottom:34px;border-radius:18px;background:linear-gradient(155deg,rgba(14,22,48,.84),rgba(7,11,26,.92));border:1px solid rgba(53,242,208,.22);backdrop-filter:blur(14px);box-shadow:0 14px 40px rgba(0,0,0,.45)}
 .store-filters{margin:0;justify-content:flex-start;gap:8px}
@@ -282,7 +282,7 @@ body[data-page="membresias"] footer.site-footer,body[data-page="tienda"] footer.
 .sem-hero{position:relative;min-height:100vh;padding:calc(var(--nav-h) + 46px) 0 90px;overflow:hidden;background:linear-gradient(180deg,rgba(5,7,13,.64) 0%,rgba(5,7,13,.82) 50%,#040711 100%),radial-gradient(ellipse at 50% 15%,rgba(124,92,255,.18),rgba(53,242,208,.12) 45%,transparent 70%),url('../assets/bg-investigaciones.jpg') center top/cover no-repeat fixed}
 .sem-hero-in{position:relative;z-index:2}
 .sem-head{text-align:center;max-width:760px;margin:0 auto 36px}
-.sem-head h1{font-family:'Montserrat','Orbitron',sans-serif;font-weight:800;letter-spacing:1.2px;font-size:clamp(1.9rem,4.2vw,3.1rem);line-height:1.12;margin:12px 0 14px;background:linear-gradient(90deg,#fff 20%,var(--cyan) 95%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 10px 30px rgba(0,0,0,.5)}
+.sem-head h1{font-family:'Montserrat','Orbitron',sans-serif;font-weight:800;letter-spacing:1.2px;font-size:clamp(1.9rem,4.2vw,3.1rem);line-height:1.12;margin:12px 0 14px;color:#fff;text-shadow:0 10px 30px rgba(0,0,0,.5)}
 .sem-head p{color:#c5d1f0;font-size:1rem;line-height:1.6}
 .sem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
 .sem-card{position:relative;background:linear-gradient(160deg,rgba(14,22,48,.9) 0%,rgba(6,10,24,.96) 100%);border:1px solid rgba(53,242,208,.2);border-radius:22px;backdrop-filter:blur(14px);box-shadow:0 18px 45px rgba(0,0,0,.58);transition:transform .4s cubic-bezier(.2,.8,.2,1),border-color .4s,box-shadow .4s;transition-delay:var(--d,0s);overflow:hidden;display:flex;flex-direction:column}
@@ -422,7 +422,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);bo
 .soc-hero{position:relative;min-height:100vh;padding:calc(var(--nav-h) + 46px) 0 84px;display:flex;align-items:center;overflow:hidden;background:linear-gradient(180deg,rgba(5,7,13,.62) 0%,rgba(5,7,13,.78) 55%,#040711 100%),radial-gradient(ellipse at 50% 18%,rgba(53,242,208,.16),rgba(124,92,255,.12) 48%,transparent 70%),url('../assets/bg-explora.jpg') center top/cover no-repeat fixed}
 .soc-hero-in{position:relative;z-index:2}
 .soc-head{text-align:center;max-width:740px;margin:0 auto 42px}
-.soc-head h1{font-family:'Montserrat','Orbitron',sans-serif;font-weight:800;letter-spacing:1.2px;font-size:clamp(1.9rem,4.2vw,3.1rem);line-height:1.12;margin:12px 0 14px;background:linear-gradient(90deg,#fff 20%,var(--cyan) 95%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 10px 30px rgba(0,0,0,.5)}
+.soc-head h1{font-family:'Montserrat','Orbitron',sans-serif;font-weight:800;letter-spacing:1.2px;font-size:clamp(1.9rem,4.2vw,3.1rem);line-height:1.12;margin:12px 0 14px;color:#fff;text-shadow:0 10px 30px rgba(0,0,0,.5)}
 .soc-head p{color:#c5d1f0;font-size:1rem;line-height:1.6}
 .soc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
 .soc-card{position:relative;padding:26px 26px 22px;background:linear-gradient(155deg,rgba(14,22,48,.88) 0%,rgba(6,10,24,.95) 100%);border:1px solid rgba(53,242,208,.2);border-radius:22px;backdrop-filter:blur(14px);box-shadow:0 18px 45px rgba(0,0,0,.55);transition:transform .4s cubic-bezier(.2,.8,.2,1),border-color .4s,box-shadow .4s;transition-delay:var(--d,0s);overflow:hidden}
@@ -455,7 +455,7 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--cyan);bo
 .tours-hero{position:relative;min-height:100vh;padding:calc(var(--nav-h) + 46px) 0 84px;display:flex;align-items:center;overflow:hidden;background:linear-gradient(180deg,rgba(5,7,13,.62) 0%,rgba(5,7,13,.78) 55%,#040711 100%),radial-gradient(ellipse at 50% 16%,rgba(53,242,208,.16),rgba(255,200,87,.08) 48%,transparent 70%),url('../assets/bg-explora.jpg') center top/cover no-repeat fixed}
 .tours-hero-in{position:relative;z-index:2}
 .tours-head{text-align:center;max-width:760px;margin:0 auto 42px}
-.tours-head h1{font-family:'Montserrat','Orbitron',sans-serif;font-weight:800;letter-spacing:1.2px;font-size:clamp(1.9rem,4.2vw,3.1rem);line-height:1.12;margin:12px 0 14px;background:linear-gradient(90deg,#fff 20%,var(--cyan) 95%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 10px 30px rgba(0,0,0,.5)}
+.tours-head h1{font-family:'Montserrat','Orbitron',sans-serif;font-weight:800;letter-spacing:1.2px;font-size:clamp(1.9rem,4.2vw,3.1rem);line-height:1.12;margin:12px 0 14px;color:#fff;text-shadow:0 10px 30px rgba(0,0,0,.5)}
 .tours-head p{color:#c5d1f0;font-size:1rem;line-height:1.6}
 .tours-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;align-items:stretch}
 .tour-card{position:relative;background:linear-gradient(160deg,rgba(14,22,48,.9) 0%,rgba(6,10,24,.96) 100%);border:1px solid rgba(53,242,208,.22);border-radius:22px;backdrop-filter:blur(14px);box-shadow:0 20px 50px rgba(0,0,0,.6);transition:transform .4s cubic-bezier(.2,.8,.2,1),border-color .4s,box-shadow .4s;transition-delay:var(--d,0s);overflow:hidden;display:flex;flex-direction:column}
