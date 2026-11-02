@@ -705,6 +705,15 @@ const PAGES={
   },
   acceso(){
     const root=$('#authRoot');
+    const backBtn=$('.auth-back');
+    if(backBtn&&document.referrer){
+      try{
+        const ref=new URL(document.referrer);
+        if(ref.origin===location.origin&&!/acceso\.html|admin\.html/i.test(ref.pathname)){
+          backBtn.href=ref.href;
+        }
+      }catch{}
+    }
     let curMode='login';
     let recoverStep=1;
     let recoverEmail='';
