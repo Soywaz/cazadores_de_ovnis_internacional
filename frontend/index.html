@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inicio | Cazadores de Ovnis Internacional</title>
+<link rel="icon" href="assets/logo.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Montserrat:wght@700;800&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="index">
+<div id="site-nav"></div>
+<main>
+<section class="hero"><canvas id="stars"></canvas><div class="container hero-in">
+ <div><span class="eyebrow">Investigación · Exploración · Misterio</span>
+ <h1>CAZADORES DE OVNIS INTERNACIONAL</h1>
+ <p>Somos una comunidad global dedicada a investigar, documentar y divulgar el fenómeno OVNI con rigor, curiosidad y espíritu explorador. El cielo guarda preguntas; nosotros salimos a buscar respuestas.</p>
+ <div class="cta-row"><a class="btn btn-primary" href="membresias.html">Únete a la comunidad</a><a class="btn btn-ghost" href="tours.html">Explorar tours</a></div></div>
+ <div class="ufo-scene">
+  <div class="ufo-aura"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="ufo-wrap">
+   <div class="beam">
+    <span class="beam-ring r1"></span>
+    <span class="beam-ring r2"></span>
+    <span class="beam-ring r3"></span>
+    <i class="particle p1"></i><i class="particle p2"></i><i class="particle p3"></i><i class="particle p4"></i>
+   </div>
+   <svg class="ufo" viewBox="0 0 360 200" aria-label="Platillo volador animado">
+    <defs>
+     <radialGradient id="domeGrad" cx="45%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#e0ffff" stop-opacity=".95"/>
+      <stop offset="45%" stop-color="#35f2d0" stop-opacity=".75"/>
+      <stop offset="85%" stop-color="#1a3b70" stop-opacity=".85"/>
+      <stop offset="100%" stop-color="#0a152e" stop-opacity=".95"/>
+     </radialGradient>
+     <linearGradient id="hullTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e6f2ff"/>
+      <stop offset="30%" stop-color="#8aa4c8"/>
+      <stop offset="65%" stop-color="#2c3e66"/>
+      <stop offset="100%" stop-color="#0d152b"/>
+     </linearGradient>
+     <linearGradient id="hullBot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4b628a"/>
+      <stop offset="50%" stop-color="#192544"/>
+      <stop offset="100%" stop-color="#070c1a"/>
+     </linearGradient>
+     <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="35%" stop-color="#35f2d0"/>
+      <stop offset="70%" stop-color="#1bb8ff" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/>
+     </radialGradient>
+     <linearGradient id="rimGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c5cff"/>
+      <stop offset="50%" stop-color="#35f2d0"/>
+      <stop offset="100%" stop-color="#1bb8ff"/>
+     </linearGradient>
+    </defs>
+    <!-- Ondas de energía inferiores -->
+    <ellipse class="pulse-ring pr1" cx="180" cy="132" rx="58" ry="14" fill="none" stroke="#35f2d0" stroke-width="2"/>
+    <ellipse class="pulse-ring pr2" cx="180" cy="132" rx="58" ry="14" fill="none" stroke="#1bb8ff" stroke-width="1.5"/>
+    <!-- Base inferior del platillo -->
+    <ellipse cx="180" cy="116" rx="115" ry="26" fill="url(#hullBot)" stroke="#293b63" stroke-width="1.5"/>
+    <!-- Núcleo reactor central -->
+    <ellipse class="ufo-core" cx="180" cy="124" rx="52" ry="14" fill="url(#coreGlow)"/>
+    <ellipse cx="180" cy="122" rx="28" ry="7" fill="#e8ffff" opacity=".9"/>
+    <!-- Cuerpo principal metálico -->
+    <ellipse cx="180" cy="100" rx="160" ry="38" fill="url(#hullTop)"/>
+    <ellipse cx="180" cy="96" rx="146" ry="28" fill="none" stroke="#a6c8ff" stroke-width="1" opacity=".35"/>
+    <!-- Anillo de energía giratorio -->
+    <ellipse class="ufo-spin-ring" cx="180" cy="101" rx="154" ry="34" fill="none" stroke="url(#rimGrad)" stroke-width="3" stroke-dasharray="18 14"/>
+    <!-- Cúpula cristalina -->
+    <ellipse cx="180" cy="78" rx="68" ry="16" fill="#0b1736" stroke="#35f2d0" stroke-width="1.5" opacity=".8"/>
+    <path d="M112,78 C112,24 248,24 248,78 Z" fill="url(#domeGrad)"/>
+    <ellipse cx="160" cy="52" rx="26" ry="11" transform="rotate(-14 160 52)" fill="#fff" opacity=".45"/>
+    <ellipse cx="180" cy="78" rx="68" ry="14" fill="none" stroke="#7efce6" stroke-width="2" opacity=".75"/>
+    <!-- Luces perimetrales animadas -->
+    <g class="ufo-lights">
+     <circle class="ul l1" cx="42" cy="103" r="5.5"/>
+     <circle class="ul l2" cx="82" cy="116" r="6.5"/>
+     <circle class="ul l3" cx="130" cy="124" r="7"/>
+     <circle class="ul l4" cx="180" cy="127" r="7.5"/>
+     <circle class="ul l5" cx="230" cy="124" r="7"/>
+     <circle class="ul l6" cx="278" cy="116" r="6.5"/>
+     <circle class="ul l7" cx="318" cy="103" r="5.5"/>
+    </g>
+   </svg>
+  </div>
+ </div>
+</div></section>
+<section class="explore-sec"><div class="container"><div class="section-title reveal"><span class="eyebrow"><i class="pulse-dot"></i> Explora · Centro de Mando</span><h2>Accesos destacados</h2><p>Navega por los módulos oficiales de nuestra organización: expediciones de campo, formación ufológica, equipamiento táctico y archivos desclasificados.</p></div><div class="quick-grid" id="quick"></div></div></section>
+<section class="stats-sec"><div class="container">
+ <div class="stats-head reveal"><span class="eyebrow"><i class="pulse-dot"></i> Telemetría Global</span><h2>Impacto de nuestra red</h2></div>
+ <div class="stats reveal">
+  <div class="stat-card"><span class="stat-tag">RED ACTIVA</span><div class="stat-ic">👥</div><b>+2.500</b><span>Miembros e investigadores</span><div class="stat-line"><i style="width:88%"></i></div></div>
+  <div class="stat-card"><span class="stat-tag">EVIDENCIA</span><div class="stat-ic">🛸</div><b>340+</b><span>Avistamientos documentados</span><div class="stat-line"><i style="width:74%"></i></div></div>
+  <div class="stat-card"><span class="stat-tag">OPERACIONES</span><div class="stat-ic">🧭</div><b>45</b><span>Expediciones de campo</span><div class="stat-line"><i style="width:65%"></i></div></div>
+  <div class="stat-card"><span class="stat-tag">COBERTURA</span><div class="stat-ic">🌍</div><b>18</b><span>Países interconectados</span><div class="stat-line"><i style="width:82%"></i></div></div>
+ </div>
+</div></section>
+<section class="invs-sec"><div class="container"><div class="section-title reveal"><span class="eyebrow"><i class="pulse-dot"></i> En curso · Expedientes Abiertos</span><h2>Investigaciones activas</h2><p>Operaciones científicas y análisis de anomalías aéreas en los que nuestra comunidad colabora en tiempo real.</p></div><div class="invs-grid" id="invs"></div></div></section>
+<section class="cta-sec"><div class="container"><div class="cta-band reveal">
+ <div class="cta-orb o1"></div><div class="cta-orb o2"></div>
+ <div class="cta-content">
+  <span class="eyebrow"><i class="pulse-dot"></i> Convocatoria Abierta · Nivel Internacional</span>
+  <h2>¿Listo para mirar al cielo con nosotros?</h2>
+  <p>Regístrate en la plataforma, obtén tu credencial de miembro oficial, accede a expedientes desclasificados y participa en la próxima expedición nocturna.</p>
+  <div class="cta-row" style="justify-content:center">
+   <a class="btn btn-primary" href="acceso.html">Crear mi cuenta</a>
+   <a class="btn btn-ghost" href="membresias.html">Ver beneficios VIP</a>
+  </div>
+ </div>
+</div></div></section></main>
+<div id="site-footer"></div>
+<script src="js/config.js"></script>
+<script src="js/data.js"></script>
+<script src="js/components.js"></script>
+<script src="js/pages.js"></script>
+</body>
+</html>

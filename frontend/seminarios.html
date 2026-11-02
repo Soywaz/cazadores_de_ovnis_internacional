@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seminarios y Conferencias | Cazadores de Ovnis Internacional</title>
+<link rel="icon" href="assets/logo.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Montserrat:wght@700;800&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="seminarios">
+<div id="site-nav"></div>
+<main>
+  <section class="sem-hero">
+    <div class="container sem-hero-in">
+      <div class="sem-head reveal">
+        <span class="eyebrow"><i class="pulse-dot"></i> Academia Aeroespacial · División de Formación CDO</span>
+        <h1>SEMINARIOS Y CONFERENCIAS</h1>
+        <p>Fórmate con investigadores de campo, astrofísicos y analistas de evidencia aérea. Domina los protocolos científicos de observación, fotogrametría e instrumentación táctica.</p>
+      </div>
+      <div class="store-toolbar sem-toolbar reveal">
+        <div class="filters store-filters" id="semFilters"></div>
+        <div class="store-tools">
+          <div class="store-search">
+            <span class="ss-ic">🔍</span>
+            <input type="search" id="semSearch" placeholder="Buscar tema, ponente o ciudad..." aria-label="Buscar seminario">
+          </div>
+          <button class="btn btn-ghost btn-sm store-cart-btn sem-agenda-btn" id="semAgendaBtn" type="button">
+            <span>📅 Mi agenda</span>
+            <b class="store-cart-badge" id="semCalBadge">0</b>
+          </button>
+        </div>
+      </div>
+      <div class="sem-grid" id="seminars"></div>
+    </div>
+  </section>
+</main>
+<div id="site-footer"></div>
+<script src="js/config.js"></script>
+<script src="js/data.js"></script>
+<script src="js/components.js"></script>
+<script src="js/pages.js"></script>
+</body>
+</html>
